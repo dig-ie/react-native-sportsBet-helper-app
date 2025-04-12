@@ -29,3 +29,17 @@ Este projeto ainda está em fase inicial e será evoluído continuamente, com fo
 ---
 
 > Para mais informações ou interesse em colaboração, entre em contato comigo.
+
+## 📦 Commit Semântico (Padrão de mensagens)
+
+Utilizado o padrão abaixo para manter o histórico limpo e compreensível:
+
+| Tipo       | Uso                                                       |
+|------------|-----------------------------------------------------------|
+| `feat`     | Nova funcionalidade                                       |
+| `fix`      | Correção de bug                                           |
+| `refactor` | Refatoração de código (sem mudança de comportamento)      |
+| `style`    | Ajustes visuais ou de formatação (sem lógica envolvida)   |
+| `docs`     | Documentação adicionada ou atualizada                     |
+| `test`     | Adição ou modificação de testes                           |
+| `chore`    | Tarefas auxiliares (configs, dependências, etc.)          |
