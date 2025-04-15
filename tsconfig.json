@@ -2,7 +2,13 @@
   "compilerOptions": {
     "strictNullChecks": true,
     "strict": true,
-    "moduleResolution": "bundler"
+    "moduleResolution": "bundler",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"]
+    }
   },
+
   "extends": "expo/tsconfig.base"
 }

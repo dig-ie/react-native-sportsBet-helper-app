@@ -1,7 +1,6 @@
-import React from 'react';
-import LoginScreen from './screens/Loginpage';
-import RegisterScreen from './screens/register';
+import AppRoutes from "@/routes";
+import React from "react";
 
 export default function App() {
-  return <LoginScreen />;
+  return <AppRoutes />;
 }
