@@ -1,7 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
-// import { useAppStorage } from "../stores";
 import UnauthorizedRoutes from "./unauthorized.routes";
 import AuthorizedRoutes from "./authorized.routes";
+import { useAppStorage } from "@/stores";
 function AppRoutes() {
   // const { data } = useAppStorage();
   const data = {
